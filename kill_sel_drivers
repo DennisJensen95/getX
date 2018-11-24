@@ -1,0 +1,6 @@
+#!/bin/bash
+# Killing all firefox and geckodriver instances. Just a secure switch.
+
+pkill -f firefox
+pkill -f geckodriver
+
