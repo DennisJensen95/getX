@@ -18,7 +18,15 @@ FEED_FORMAT='csv'
 FEED_URI='findbolig.csv'
 FEED_EXPORT_ENCODING = "utf-8"
 
-USER_AGENT_LIST = '/mnt/c/Users/ngh1a/Google Drive/Get_a_place/scrapy_useragents/useragents.txt'
+import os
+path = str(os.getcwd())
+if 'Google Drev' in path:
+    USER_AGENT_LIST = '/mnt/c/Users/ngh1a/Google Drev/Get_a_place/scrapy_useragents/useragents.txt'
+else:
+    USER_AGENT_LIST = '/mnt/c/Users/ngh1a/Google Drive/Get_a_place/scrapy_useragents/useragents.txt'
+
+
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'get_a_place_kbh (+http://www.yourdomain.com)'

@@ -17,7 +17,7 @@ if os.path.exists('findbolig.csv'):
 
 process = CrawlerProcess(get_project_settings())
 
-process.crawl('findbolig')
+process.crawl('findbolig_test')
 process.start()
 
 # Parse data

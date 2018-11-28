@@ -1,0 +1,17 @@
+# Pythonpath source folders add
+export PYTHONPATH="${PYTHONPATH}:/home/linux/Google\ Drive/Get_a_place/apply_findbolig:/home/linux/Google\ Drive/Get_a_place/send_a_mail"
+export PATH=$PATH:/home/linux/Google\ Drive/Get_a_place/geckodriver_
+
+# Aliases
+alias pip="pip3"
+alias python="python3"
+
+
+
+
+# Pythonpath source folders add
+PYTHONPATH="${PYTHONPATH}:/home/linux/Google\ Drive/Get_a_place/apply_findbolig:/home/linux/Google\ Drive/Get_a_place/send_a_mail"
+PATH=$PATH:/home/linux/Google\ Drive/Get_a_place/geckodriver_
+
+# Get a place
+*/3 6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,0 * * * cd ~/Google\ Drive/Get_a_place/ && /usr/bin/python3.6 look_for_apartments.py 2>&1 | /usr/bin/logger -t get_a_$

@@ -1,5 +1,6 @@
 # This class is for parsing the csv files and returning new apartments to apply for
 
+import time
 import pandas as pd
 from apply_findbolig.findbolig_apply import FindBoligApply
 from send_a_mail.send_a_mail import SendAMail
@@ -69,16 +70,27 @@ class GetNewApartments():
         if login_success and not self.new_apartments_data.empty:
             for index, row in self.new_apartments_data.iterrows():
                 self.apply.click_apply(row['link'])
+                time.sleep(5)
                 message = "A new apartment has been applied. Rent is {0} surplus rent is {1} \n" \
                        "The adress is {2} ond here is the link for it {3}".format(str(row['rent']), str(row['aconto']),
                                                                            str(row['adress']), str(row['link']))
                 if len(emails) == 1:
-                    self.email.send_email(email_username, email_password, message, emails)
-                    print('Sent email to: {0}'.format(emails))
+                    try:
+                        self.email.send_email(email_username, email_password, message, emails)
+                        print('Sent email to: {0}'.format(emails))
+                    except:
+                        message = "The email could not be send properly, check that the agent has applied."
+                        self.email.send_email(email_username, email_password, message, emails)
+                        print(message)
                 else:
                     for email in emails:
-                        self.email.send_email(email_username, email_password, message, str(email))
-                        print('Sent email to: {0}'.format(email))
+                        try:
+                            self.email.send_email(email_username, email_password, message, str(email))
+                            print('Sent email to: {0}'.format(email))
+                        except:
+                            message = "The email could not be send properly, check that the agent has applied."
+                            self.email.send_email(email_username, email_password, message, emails)
+                            print(message)
 
 
 
