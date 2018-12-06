@@ -11,11 +11,16 @@ from scrapy.utils.project import get_project_settings
 from parse_csv_files.get_new_apartments import GetNewApartments
 
 try:
-    os.chdir('./get_a_place_kbh')
+    if '/home/dennis' in os.getcwd():
+        os.chdir('./Desktop/getX/get_a_place_kbh')
+    else:
+        os.chdir('./get_a_place_kbh')
+
+
     if os.path.exists('findbolig.csv'):
         os.remove('findbolig.csv')
 
-    process = CrawlerProcess(get_project_settings())
+
 
     process.crawl('findbolig_test')
     process.start()
