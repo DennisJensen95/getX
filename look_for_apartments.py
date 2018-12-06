@@ -29,13 +29,15 @@ else:
     emails = list(['ngh1adj95@hotmail.com', 'anna.c.rodriguez@hotmail.com'])
     email_username = 'getaplace.kbh@gmail.com'
     email_password = 'Uvr23bhw'
-    findbolig_username = 'DennisJensen95'
-    findbolig_password = 'Uvr23bhw'
+    findbolig_username_dennis = 'DennisJensen95'
+    findbolig_password_dennis = 'Uvr23bhw'
+    findbolig_username_anna = 'Anna Rodriguez'
+    findbolig_password_anna = 'stella1707'
 
     any_new = GetNewApartments.compare_if_any_new_apartments()
     print(any_new)
     if any_new:
-        GetNewApartments.apply_for_new_apartments(findbolig_username, findbolig_password, email_username, email_password, emails)
+        GetNewApartments.apply_for_new_apartments(findbolig_username_anna, findbolig_password_anna, email_username, email_password, emails)
     else:
         print("There is no new apartments to apply for.")
 GetNewApartments.close_driver()

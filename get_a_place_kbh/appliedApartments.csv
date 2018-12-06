@@ -1,2 +1,32 @@
 index,adress,area,rent,aconto,link,time
 0,"Bryggergade 6, 3. 4",2100 København Ø,"9.999,17 kr.","1.101,74 kr.",https://www.findbolig.nu/bolig.aspx?aid=34206&s=2,24-11-18
+0,"Vejlegade 8A, st. th",2100 København Ø,"14.800,00 kr.","1.000,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34023&s=2,27-11-18
+1,"Ny Adelgade  3, 2. TH",1104 København K,"18.619,38 kr.","1.800,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=35322&s=2,27-11-18
+2,"Peter Bangs Vej  161, 1. th",2000 Frederiksberg,"15.843,50 kr.","1.440,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34129&s=2,27-11-18
+3,"Strandvejen  30A, st. Lejl 4",2100 København Ø,"23.925,00 kr.","821,25 kr.",https://www.findbolig.nu/bolig.aspx?aid=35288&s=2,27-11-18
+4,"Preben Kaas' Vænge  2, 2. tv",2000 Frederiksberg,"15.326,58 kr.","990,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34223&s=2,27-11-18
+5,"Mathildevej  22A, st.",2000 Frederiksberg,"21.500,00 kr.","1.500,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34234&s=2,27-11-18
+6,"Nørre Voldgade  25, 1. tv.",1358 København K,"21.335,41 kr.","1.400,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=30705&s=2,27-11-18
+7,"Strandvejen  30D, st. Lejl. 1",2100 København Ø,"15.925,00 kr.","408,75 kr.",https://www.findbolig.nu/bolig.aspx?aid=34288&s=2,27-11-18
+8,"Mathildevej 22A, 2.",2000 Frederiksberg,"25.000,00 kr.","1.500,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34229&s=2,27-11-18
+9,"Margretheholmsvej  28, 5. tv",1432 København K,"16.621,95 kr.","1.260,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34120&s=2,27-11-18
+10,"Margretheholmsvej  44, 3. th",1432 København K,"16.362,23 kr.","1.210,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34123&s=2,27-11-18
+11,"Strandvejen  22D, st. Lejl 5",2100 København Ø,"21.925,00 kr.","753,75 kr.",https://www.findbolig.nu/bolig.aspx?aid=35286&s=2,27-11-18
+12,"Margretheholmsvej  34, 7. th",1432 København K,"20.517,72 kr.","1.470,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=33780&s=2,27-11-18
+13,"Strandvejen  30C, st. Lejl 2",2100 København Ø,"18.925,00 kr.","555,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34270&s=2,27-11-18
+14,"Dag Hammarskjölds Alle  25 , 2. th",2100 København Ø,"16.290,51 kr.","1.640,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34136&s=2,27-11-18
+15,"Margretheholmsvej  28, 7. th",1432 København K,"18.564,98 kr.","1.390,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=31303&s=2,27-11-18
+16,"Strandvejen  22E, st. lejl 6",2100 København Ø,"14.275,00 kr.","345,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=35287&s=2,27-11-18
+17,"Margretheholmsvej  38, 7. tv",1432 København K,"20.358,52 kr.","1.480,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=32796&s=2,27-11-18
+18,"Margretheholmsvej  28, 2.",1432 København K,"16.102,51 kr.","1.450,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34135&s=2,27-11-18
+0,"Strandvejen  30B, st. Lejl 3",2100 København Ø,"18.925,00 kr.","555,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=35289&s=2,27-11-18
+1,"Dirch Passers Allé  25, 2. tv",2000 Frederiksberg,"16.214,08 kr.","971,67 kr.",https://www.findbolig.nu/bolig.aspx?aid=32975&s=2,27-11-18
+2,"Margretheholmsvej  42, 4. tv",1432 København K,"13.245,61 kr.","950,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34121&s=2,27-11-18
+3,"Gothersgade  137 , 4. th.",1123 København K,"27.655,22 kr.","1.490,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=33849&s=2,27-11-18
+4,"Strandvejen  26A, 1. mf.",2100 København Ø,"13.591,86 kr.","1.000,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34240&s=2,27-11-18
+5,"Howitzvej 49, st. th",2000 Frederiksberg,"19.200,00 kr.","1.000,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34231&s=2,27-11-18
+6,"Dirch Passers Allé  25, 1. tv",2000 Frederiksberg,"17.593,25 kr.","880,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34263&s=2,27-11-18
+7,"Rantzausgade 60D, 2. 2",2200 København N,"16.000,00 kr.","1.000,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=33341&s=2,27-11-18
+8,"Margretheholmsvej  44, 6. th",1432 København K,"15.977,57 kr.","1.140,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=32467&s=2,27-11-18
+0,"Valkyriegade  20 , st. th.",2200 København N,"7.115,76 kr.","670,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=34278&s=2,27-11-18
+0,"Glentevej  52 , 1. tv",2400 København NV,"7.276,95 kr.","600,00 kr.",https://www.findbolig.nu/bolig.aspx?aid=35357&s=2,30-11-18

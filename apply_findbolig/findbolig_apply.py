@@ -1,7 +1,9 @@
 ## Scraper for findbolig
 
 import os
+import scrapy
 from selenium import webdriver
+from scrapy.http import HtmlResponse
 
 class FindBoligApply():
 
@@ -38,6 +40,22 @@ class FindBoligApply():
         except:
             print("The apply did not succeed!")
             self.close()
+
+    def change_site(self, url):
+        self.driver.get(url)
+        print("Changed website to {0}".format(url))
+
+    # Return response from the selenium driver
+    def return_response(self, response):
+        request = scrapy.Request(response.url)
+
+        response = self.driver.page_source
+        response = HtmlResponse(self.driver.current_url,
+                                body=response, encoding='utf-8',
+                                request=request
+                                )
+
+        return response
 
     def close(self):
         self.driver.quit()
