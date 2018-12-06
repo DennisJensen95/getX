@@ -11,7 +11,11 @@ from parse_csv_files.get_new_apartments import GetNewApartments
 # Initialize
 GetNewApartments = GetNewApartments('findbolig.csv', 'appliedApartments.csv')
 
-os.chdir('./get_a_place_kbh')
+if '/home/dennis' in os.getcwd():
+    os.chdir('./Desktop/getX/get_a_place_kbh')
+else:
+    os.chdir('./get_a_place_kbh')
+
 if os.path.exists('findbolig.csv'):
     os.remove('findbolig.csv')
 
