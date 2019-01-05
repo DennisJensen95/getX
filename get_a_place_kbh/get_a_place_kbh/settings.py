@@ -22,6 +22,8 @@ import os
 path = str(os.getcwd())
 if 'Google Drev' in path:
     USER_AGENT_LIST = '/mnt/c/Users/ngh1a/Google Drev/Get_a_place/scrapy_useragents/useragents.txt'
+elif 'server' in path:
+    USER_AGENT_LIST = '/home/server/Desktop/GIT/getX/scrapy_useragents/useragents.txt'
 elif 'Desktop' in path:
     USER_AGENT_LIST = '/home/dennis/Desktop/getX/scrapy_useragents/useragents.txt'
 else:
