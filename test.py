@@ -10,7 +10,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from parse_csv_files.get_new_apartments import GetNewApartments
 
-try:
+# try:
     if '/home/dennis' in os.getcwd():
         os.chdir('./Desktop/getX/get_a_place_kbh')
     else:
@@ -19,7 +19,6 @@ try:
 
     if os.path.exists('findbolig.csv'):
         os.remove('findbolig.csv')
-
 
 
     process.crawl('findbolig_test')
@@ -52,18 +51,18 @@ try:
             print("There is no new apartments to apply for.")
 
     GetNewApartments.close_driver()
-except:
-    SendAMail = SendAMail()
-    SendAMail.send_email(from_addr='getaplace.kbh@gmail.com',
-                         to_addr=['ngh1adj95@hotmail.com'],
-                         cc_addr_list=[],
-                         subject='Shit',
-                         message='Shits not working, fix it.',
-                         login='getaplace.kbh@gmail.com',
-                         password='Uvr23bhw')
-    os.chdir("./../")
-    print("Shits not working, killing everything")
-    os.system('./kill_sel_drivers')
+# except:
+    # SendAMail = SendAMail()
+    # SendAMail.send_email(from_addr='getaplace.kbh@gmail.com',
+    #                      to_addr=['ngh1adj95@hotmail.com'],
+    #                      cc_addr_list=[],
+    #                      subject='Shit',
+    #                      message='Shits not working, fix it.',
+    #                      login='getaplace.kbh@gmail.com',
+    #                      password='Uvr23bhw')
+    # os.chdir("./../")
+    # print("Shits not working, killing everything")
+    # os.system('./kill_sel_drivers')
 
 
 
