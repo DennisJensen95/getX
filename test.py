@@ -20,7 +20,7 @@ else:
 if os.path.exists('findbolig.csv'):
     os.remove('findbolig.csv')
 
-process = get_project_settings()
+process = CrawlerProcess(get_project_settings())
 process.crawl('findbolig_test')
 process.start()
 
