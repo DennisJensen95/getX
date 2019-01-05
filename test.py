@@ -20,7 +20,7 @@ from parse_csv_files.get_new_apartments import GetNewApartments
     if os.path.exists('findbolig.csv'):
         os.remove('findbolig.csv')
 
-
+    process = get_project_settings()
     process.crawl('findbolig_test')
     process.start()
 
