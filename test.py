@@ -52,14 +52,6 @@ try:
 
     GetNewApartments.close_driver()
 except:
-    SendAMail = SendAMail()
-    SendAMail.send_email(from_addr='getaplace.kbh@gmail.com',
-                         to_addr=['ngh1adj95@hotmail.com'],
-                         cc_addr_list=[],
-                         subject='Shit',
-                         message='Shits not working, fix it.',
-                         login='getaplace.kbh@gmail.com',
-                         password='Uvr23bhw')
     os.chdir("./../")
     print("Shits not working, killing everything")
     os.system('./kill_sel_drivers')
